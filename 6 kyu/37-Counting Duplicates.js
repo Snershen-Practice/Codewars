@@ -20,6 +20,8 @@ function duplicateCount(text) {
 
 //參考其他人解法
 //1
+//sort 不給參數時，預設將所有元素轉為字串，並以 code UTF-16 做順序排列
+//排列方式是先數字、英文大寫、英文小寫
 function duplicateCount(text) {
   return (
     text
